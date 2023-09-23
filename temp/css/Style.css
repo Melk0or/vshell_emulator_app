@@ -1,0 +1,719 @@
+html
+{
+    background-color: rgb(236, 236, 236);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(85, 62, 139);
+    color: whitesmoke;
+}
+li
+{
+    list-style-type: none;
+}
+ul[class^="main-menu"] li
+{
+    display: inline-block;
+    margin: 0 25px 0 25px;
+}
+ul
+{
+    text-decoration: none;
+    padding: 0;
+}
+main > div 
+{
+    margin: 0;
+}
+.icons
+{
+    display: flex;
+    margin: 30px 40px 30px 40px;
+    font-size: 1.6em;
+}
+.logo
+{
+    display: flex;
+    font-size: 2.2em;
+    margin-right: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div[class^="logo"]
+{
+    display: inline-flex;
+}
+#p-logo-element-go
+{
+    color: rgb(212, 28, 120);
+}
+
+#more
+{
+    font-size: 1.1em;
+}
+.main-head
+{
+    display: flex;
+    height: 40rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(85, 62, 139); 
+}
+.main-two-collumns 
+{
+    display: block;
+    width: 100%;
+    height: 35rem;
+
+}
+.main-services
+{
+    display: block;
+    height: 50rem;
+}
+.main-feedback
+{
+    display: block;
+    height: 30rem;
+}
+.main-clients
+{
+    display: block;
+    height: 50rem;
+    background-color: rgb(236, 236, 236);
+}
+.main-call
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    height: 12rem;
+    color: white;
+    background-color: rgb(28, 151, 160);
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-color: rgb(61, 61, 61);
+}
+p
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+#text-collumns-space
+{
+    margin-top: 20px;
+}
+h1
+{
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2
+{
+    margin: 0;
+    font-size: 2.5em;
+    margin-bottom: 8px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3
+{
+    padding-top: 5px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h4
+{
+    font-size: 1.2em;
+    margin: 8px 0 8px 0;
+}
+
+div[class^="head-text-right"] hr[class^="line-widht"]
+{
+    border-color:white;
+}
+div[class^="head-text-left"] hr[class^="line-widht"]
+{
+    border-color:white;
+    margin-left: 400px;
+}
+div[class^="clients"] div[class^="head-text-right"] hr[class^="line-widht"]
+{
+    border-color:rgb(82, 82, 82);
+}
+div[class^="clients"] div[class^="head-text-left"] hr[class^="line-widht"]
+{
+    border-color:rgb(82, 82, 82);
+    margin-left: 400px;
+}
+.white-solid
+{
+    border-top: 1px solid white; 
+    margin: 0;
+}
+.white-solid-main
+{
+    border-color: white; 
+    z-index: 3; 
+    width: 500px;
+}
+
+#aim
+{
+    margin: 0 2px 2px 0;
+    font-size: 1.6em;
+    color: white;
+}
+.left-aim
+{
+    display: block;   
+    margin-left: 40px;
+    width: auto;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+.right-aim
+{
+    display: block;
+    margin-right: 40px;
+    width: auto;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+.main-info
+{
+    display: block;
+    margin: 0 25rem 0 25rem;
+    width: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.hire-us
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 0 auto;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+a
+{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.main-menu
+{
+    margin: 30px 40px 30px 40px;
+    font-size: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+ul[class^="main-menu"] li a:hover
+{
+    color: rgb(28, 151, 160);
+}
+ul[class^="icons"] li a:hover
+{
+    color: rgb(28, 151, 160);
+}
+div[class^="left-aim"]:hover 
+{
+    border: 1px solid rgb(28, 151, 160);
+    background-color: rgb(28, 151, 160);
+}
+div[class^="right-aim"]:hover 
+{
+    border: 1px solid rgb(28, 151, 160);
+    background-color: rgb(28, 151, 160);
+}
+#aim:hover
+{
+    color: whitesmoke;
+} 
+div[class^="hire-us"]:hover
+{
+    background: whitesmoke;
+}
+div[class^="main-info"] a button:hover
+{
+    border: 1px solid rgb(28, 151, 160);
+    background-color: rgb(28, 151, 160);
+    color:whitesmoke;
+}
+
+
+.collumns-one
+{
+    display: block;
+    margin: 0;
+    width: 50%;
+    height: 35rem;
+    float: left;
+}
+.collumns-two
+{
+    display: block;
+    width: 50%;
+    height: 35rem;
+    float: left;
+    background-color: whitesmoke;
+}
+
+.service
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(51, 51, 51);
+}
+.services-select
+{
+    display: block;
+    width: 33.33%;
+    height: 40rem;
+    float: left;
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+}
+
+.feed
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(51, 51, 51);
+}
+.feed-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(61, 61, 61);
+    font-size: 0.8em;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.feed-description
+{
+    display: block;
+    width: 18%;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 1.7em;
+    color: lightgray;
+}
+.feed-people
+{
+    display: block;
+}
+
+.clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 100%;
+    height: 10rem;
+    background-color: whitesmoke;
+}
+.clients-logo
+{
+    padding-top: 30px;
+    display: grid;
+    width: 99.95%;
+    grid-template-rows: repeat(2, 20rem);
+    grid-template-columns: repeat(5, auto);
+}
+.about
+{
+    display: block;
+    margin: 50px 100px 60px 90px;
+    width: auto;
+}
+.line-widht
+{
+    display: block;
+    border: 2px solid black;
+    z-index: 2;
+    position: absolute;
+    width: 100px;
+    border-radius: 50px;
+}
+hr
+{
+    margin: 0;
+}
+.hr-feed
+{
+    margin: 20px 40% 20px 40%;
+    width: auto;
+}
+.text-collumns
+{
+    font-size: 1.4rem;
+    margin-top: 35px;
+}
+.button-collumns
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    width: 200px;
+    font-size: 0.6em;
+    color: white;
+    border-radius: 3px;
+    background-color:  rgb(28, 151, 160);
+}
+.button-collumns:hover
+{
+    background-color: whitesmoke;
+    border: 1px solid rgb(28, 151, 160);
+    color:rgb(28, 151, 160);
+}
+.button-services
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 55px;
+    width: 200px;
+    font-size: 1em;
+    color: whitesmoke;
+    border-radius: 3px;
+    background-color:  rgb(109, 109, 109);
+}
+.button-services:hover
+{
+    background-color: whitesmoke;
+    color: rgb(70, 70, 70);
+}
+
+.head-text-left
+{
+    display: block;
+    margin-top: 40px;
+}
+.client-head-line
+{
+    border-color: black;
+    width: 500px;
+}
+.head-text-right
+{
+    display: block;
+    margin-top: 40px;
+}
+.h2-head
+{
+    display: block;
+    margin: 0 20px 0 20px;
+}
+.h2-head-feed
+{
+    display: block;
+    margin: 0 60px 0 60px;
+}
+.h2-client
+{
+    display: block;
+    color: rgb(82, 82, 82);
+    margin: 0 70px 0 70px;
+}
+.h2-services
+{
+    font-size: 2em;
+    text-align: center;
+}
+.p-services
+{
+    margin: 0 40px 0 40px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+.icon-laptop
+{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0 50px 0;
+    font-size: 6em;
+    color: white;
+}
+
+#z-ind
+{
+    z-index: 3;
+}
+div[class^="about"] h2
+{
+    color: black;
+}
+.aims
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+div[class^="aims"] a:hover
+{
+    cursor: pointer;
+    color: rgb(156, 156, 156);
+}
+.icon-left-open
+{
+    float: left;
+}
+.icon-right-open
+{
+    float: right;
+}
+.img-feed
+{
+    display: inline-block;
+    margin: 0 30px 0 30px;
+    width: 230px;
+    height: 280px;
+    background-image: url(https://riotpixels.net/wp/wp-content/uploads/2019/06/Star-Wars-Jedi_Fallen-Order_25-06-19.png);
+}
+.into-img
+{
+    display: flex;
+    align-items: center;
+    margin: 220px 0 5px 10px;
+}
+.into-img-1
+{
+    display: block;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    margin-right: 5px;
+    width: 50px;
+    height: auto;
+    background: whitesmoke;
+    color: black;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.into-img-2
+{
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 150px;
+    height: 44px;
+    background: whitesmoke;
+    color: black;
+    
+}
+.p-img
+{
+    font-size: 1.1em;
+}
+
+button
+{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.call-line
+{
+    display: inline-block;
+    margin: 0 15px 0 15px;
+    border: 1px solid white;
+    width: 0;
+    height: 25px;
+}
+h2
+{
+    display: inline-block;
+}
+div[class^="call-text"] p
+{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+div[class^="call-text"] p[class^="p-call"]
+{
+    margin-top: 25px;
+}
+button[class^="button-call"]:hover
+{
+    color:  rgb(28, 151, 160);
+}
+.get-call
+{
+    display: block;
+    float: right;
+    margin-left: 200px;
+}
+input, button
+{
+    outline: none;
+    background: transparent;
+}
+input
+{
+    display: inline-block;
+    padding: 0;
+    margin-left: -5px;
+    align-items: center;
+    padding-left: 15px;
+    border: 1px solid whitesmoke;
+    font-size: 1em;
+    color: white;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 300px;
+    height: 60px;
+}
+#second-call
+{
+    border-radius: 0;
+}
+.button-call
+{
+    display: inline-block;
+    margin: 0;
+    margin-left: -4px;
+    font-size: 0.9em;
+    border: 1px solid whitesmoke;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: whitesmoke;
+    color: rgb(51, 51, 51);
+    width: 100px;
+    height: 62px;
+    cursor: pointer;
+}
+
+
+div[class^="clients-logo"] img
+{
+    border-right: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.foot-text
+{
+    color: whitesmoke;
+    margin-right: 250px;
+}
+div[class^="foot-text"] h3
+{
+    text-align: left;
+    margin: 0 0 2px 0;
+    font-size: 1.6em;
+}
+div[class^="foot-text"] hr
+{
+    float: left;
+    width: 50px;
+    color: whitesmoke;
+}
+div[class^="foot-text"] ul li
+{
+    margin-top: 25px;
+    font-size: 1.3em;
+}
+div[class^="foot-text"] div
+{
+    width: auto;
+    display: inline-block;
+    margin-right: 125px;
+}
+#email-sub
+{
+    border-color: rgb(192, 192, 192);
+    background-color:  rgb(192, 192, 192);
+    color: rgb(51, 51, 51);
+}
+.button-sub
+{
+    display: inline-block;
+    margin-left: -4px;
+    border: 1px solid rgb(28, 151, 160);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgb(28, 151, 160);
+    color: whitesmoke;
+    width: 100px;
+    height: 62px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+button[class^="button-sub"]:hover
+{
+    color:  rgb(51, 51, 51);
+}
+form[action^="sub"]
+{
+    width: auto;
+    margin-bottom: 80px;
+}
+address a
+{
+    font-size: 3em;
+    color: whitesmoke;
+}
+address a:hover
+{
+    color:  rgb(28, 151, 160);
+}
+div[class^="foot-text"] li a:hover
+{
+    color: rgb(28, 151, 160);
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+}
+input[type='number']
+{
+    -moz-appearance: textfield;
+}
+
+form[action^="call"] input::-webkit-input-placeholder
+{
+    color: rgba(255, 255, 255, 0.6);
+}

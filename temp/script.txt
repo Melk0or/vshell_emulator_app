@@ -1,0 +1,11 @@
+cd js
+ls
+pwd
+cd ..
+pwd
+cd css
+pwd
+ls
+cd /
+pwd
+cat index.html

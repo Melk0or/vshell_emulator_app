@@ -1,0 +1,21 @@
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.icon-globe { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe02f;&nbsp;'); }
+.icon-laptop { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe056;&nbsp;'); }
+.icon-left-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe75d;&nbsp;'); }
+.icon-right-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe75e;&nbsp;'); }
+.icon-facebook-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf051;&nbsp;'); }
+.icon-twitter-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf057;&nbsp;'); }
+.icon-google-plus-circle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2b3;&nbsp;'); }
+.icon-instagram { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf32d;&nbsp;'); }
+.icon-behance { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf34e;&nbsp;'); }
